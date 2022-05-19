@@ -10,9 +10,7 @@ public class Movies {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Integer id;
-
     private String movie;
-
     private String duration;
 
     public Movies() {
